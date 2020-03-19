@@ -1,0 +1,110 @@
+body{
+	margin: 0;
+	font-family: Chalkduster, fantasy;
+	background-color: dimgray;
+	font-size: : 20px;
+}
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.menu{
+	list-style-type: none;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+a{
+	color:white;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: black;
+}
+
+nav a::before{
+	content: '';
+	display: block;
+	height: 5px;
+}
+
+.header{
+	background-color: white;
+}
+
+header::after{
+	content: '';
+	display: table;
+	clear::both;
+}
+
+.logo{
+	float: left;
+	width: 100px;
+	filter: invert(1);
+	mix-blend-mode: screen;
+}
+
+nav{
+	background-color: white opacity	50%;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li{
+	display: inline-block;
+	margin-left: 70px;
+
+}
+
+table{
+	filter: grayscale(100%);
+	width: 50px;
+}
+
+table:hover{
+	filter: grayscale(0%);
+}
+
+img{
+		width: auto;
+		max-height: 350px;
+		padding: 13px;
+		float: left;
+}
+
+/*-- .header ul{
+	***box-shadow: 1px 1px 4px 0 rgba(0,0,0,0.1)
+	width: 100%;
+	z-index: 3;***-IMPORTANT
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+	background-color: gray;
+}
+
+.header ul a{
+	display: block;
+	outline: 1px solid black;
+	padding: 20px;
+	border-right: 1px solid black;
+	text-decoration: none;
+}
+
+.header ul a:hover{
+	background-color: rebeccapurple;
+}
+
+.header .logo{
+	float: left;
+	display: block;
+	font-size: 2em;
+	padding: 10px 20px;
+}*/
