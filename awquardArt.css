@@ -8,9 +8,13 @@ body{
 	font-size: : 20px;
 }
 
-.container{
-	width: 80%;
-	margin: 0 auto;
+.navbar{
+	opacity: 50%;
+}
+
+.contactform{
+	color: white;
+	width: 500px;
 }
 
 .menu{
@@ -23,15 +27,17 @@ a{
 	color:lightgray;
 	text-decoration: none;
 }
+.HOME{
+	font-size: 70px;
+	font-family: 'Rock Salt', cursive;
+	color: lightgray;
+	text-decoration: none;
+	text-align: center;
+	opacity 50%;
+}
 
 nav a:hover{
 	color: black;
-}
-
-nav a::before{
-	content: '';
-	display: block;
-	height: 5px;
 }
 
 .contactMeh{
@@ -113,14 +119,7 @@ p{
 }
 
 .profilePic{
-	display: flex;
-	flex:2;
-	order: 1;
-	justify-content: flex-start;
-}
-
-.profilePic{
-	max-width: 400px;
+	opacity: 95%;
 }
 
 .First .Last{
@@ -135,6 +134,11 @@ p{
 .kenburns-top {
 	-webkit-animation: kenburns-top 5s ease-out both;
 	        animation: kenburns-top 5s ease-out both;
+}
+
+.contactPic{
+	width: 80%;
+	height: auto;
 }
 
 /* ----------------------------------------------
